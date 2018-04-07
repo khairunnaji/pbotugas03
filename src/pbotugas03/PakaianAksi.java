@@ -30,6 +30,16 @@ p.setHarga(250000);
              bs.cetakInfo();
              System.out.println("Jenis \t:"+bs.getJeniskancing());
              bs.throttle();
+             
+             BajuKantor BK = new BajuKantor();
+             BK.setKain("Tisiyuu");
+             BK.setWarna("Bairu");
+             BK.setUkuran("L");
+             BK.setHarga(1400000);
+             BK.setMotiv("Sasirangan");
+             BK.cetakInfo();
+             System.out.println("Motiv \t:"+BK.getMotiv());
+             BK.throttle();
     
     }
   
