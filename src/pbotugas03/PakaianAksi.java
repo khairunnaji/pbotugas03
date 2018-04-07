@@ -9,6 +9,15 @@ p.setUkuran("L");
 p.setHarga(250000);
              
              p.cetakInfo();
+             
+             System.out.print("Kainnya \t: ");
+             System.out.println(p.getKain());
+             System.out.print("warnanya \t: ");
+             System.out.println(p.getWarna());
+             System.out.print("ukurannya \t: ");
+             System.out.println(p.getUkuran());
+             System.out.print("harganya \t: ");
+             System.out.println(p.getHarga());
     }
   
 }
