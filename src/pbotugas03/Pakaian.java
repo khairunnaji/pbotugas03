@@ -13,4 +13,37 @@ public class Pakaian {
                 "ukuran \t: "+ukuran+"\n"+
                 "harga \t: "+harga+"\n");
 }
+
+    public String getKain() {
+        return kain;
+    }
+
+    public void setKain(String kain) {
+        this.kain = kain;
+    }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public String getUkuran() {
+        return ukuran;
+    }
+
+    public void setUkuran(String ukuran) {
+        this.ukuran = ukuran;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+    
 }
