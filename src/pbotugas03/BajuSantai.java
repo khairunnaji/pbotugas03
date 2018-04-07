@@ -4,4 +4,13 @@ public class BajuSantai extends Pakaian{
      void throttle(){
         System.out.println("TinggiSekaliiiii.....");
     }
+
+    public String getKerah() {
+        return Kerah;
+    }
+
+    public void setKerah(String Kerah) {
+        this.Kerah = Kerah;
+    }
+
 }
