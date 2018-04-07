@@ -7,4 +7,13 @@ public class BajuKantor extends Pakaian {
         System.out.println("Sasirangannnn");
          
      }
+
+    public String getMotiv() {
+        return motiv;
+    }
+
+    public void setMotiv(String motiv) {
+        this.motiv = motiv;
+    }
+     
 }
