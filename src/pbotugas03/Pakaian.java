@@ -5,7 +5,7 @@ public class Pakaian {
   String kain;
     String warna;
     String ukuran;
-    Double harga;
+    double harga;
     
     void cetakInfo(){
         System.out.print("kain \t: "+kain+"\n"+
