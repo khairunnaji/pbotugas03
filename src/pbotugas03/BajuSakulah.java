@@ -5,4 +5,14 @@ public class BajuSakulah extends Pakaian{
     void throttle(){
         System.out.println("BUUUUUULAAAAT");
     }
+
+    public String getJeniskancing() {
+        return jeniskancing;
+    }
+
+    public void setJeniskancing(String jeniskancing) {
+        this.jeniskancing = jeniskancing;
+    }
+    
+    
 }
