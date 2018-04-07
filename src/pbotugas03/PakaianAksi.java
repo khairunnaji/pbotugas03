@@ -18,6 +18,19 @@ p.setHarga(250000);
              System.out.println(p.getUkuran());
              System.out.print("harganya \t: ");
              System.out.println(p.getHarga());
+             
+             BajuSakulah bs = new BajuSakulah();
+             bs.setKain("Tisiyuu");
+             bs.setWarna("Bairu");
+             bs.setUkuran("L");
+             bs.setHarga(1400000);
+             bs.setJeniskancing("Lonjong");
+      
+             
+             bs.cetakInfo();
+             System.out.println("Jenis \t:"+bs.getJeniskancing());
+             bs.throttle();
+    
     }
   
 }
