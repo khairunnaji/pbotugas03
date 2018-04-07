@@ -40,6 +40,17 @@ p.setHarga(250000);
              BK.cetakInfo();
              System.out.println("Motiv \t:"+BK.getMotiv());
              BK.throttle();
+             
+             
+              BajuSantai Bs = new BajuSantai();
+             Bs.setKain("Woll");
+             Bs.setWarna("Ungu");
+             Bs.setUkuran("XL");
+             Bs.setHarga(2400000);
+             Bs.setKerah("tinggi");
+             Bs.cetakInfo();
+             System.out.println("Kerah \t:"+Bs.getKerah());
+             BK.throttle();
     
     }
   
